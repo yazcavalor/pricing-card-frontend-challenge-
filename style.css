@@ -11,7 +11,7 @@ h2,h4,p{
   box-sizing: inherit;
 }
 body{
-  padding:80px 500px
+  padding:50px 100px
 }
 #card{
   height:400px;
@@ -97,4 +97,13 @@ ul{
   list-style:none;
   font-size:0.8rem;
   opacity:0.8;
+}
+@media(max-width:709px){
+  #bottum-left,#bottum-right,#card{
+    width:100%;
+    height:auto;
+  }
+  #bottum{
+    display:inline-block;
+  }
 }
